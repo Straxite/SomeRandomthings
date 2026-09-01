@@ -1,7 +1,11 @@
 {
   "about": {
     "browser": "firefox",
-    "version": "22.0.0"
+    "version": "22.3.0"
+  },
+  "advanced": {
+    "altMode": true,
+    "escKey": true
   },
   "showall": true,
   "lang": "en",
@@ -98,6 +102,7 @@
   "weather": {
     "city": "lucknow",
     "unit": "metric",
+    "show_unit": false,
     "provider": "",
     "moreinfo": "none",
     "forecast": "auto",
@@ -133,7 +138,7 @@
     "type": "classic",
     "frequency": "day",
     "author": false,
-    "last": 1781580728094
+    "last": 1788241007886
   },
   "pomodoro": {
     "on": false,
@@ -147,9 +152,12 @@
     },
     "focus": false,
     "sound": true,
+    "volume": "marimba",
+    "alarm": "marimba",
     "history": []
   },
   "font": {
+    "color": "#ffffff",
     "size": "14",
     "family": "",
     "system": true,
@@ -185,6 +193,38 @@
       }
     }
   },
+  "linkskoecjk": {
+    "_id": "linkskoecjk",
+    "order": 10,
+    "parent": "default",
+    "title": "",
+    "folder": true
+  },
+  "linksalprik": {
+    "_id": "linksalprik",
+    "order": 7,
+    "parent": "default",
+    "title": "",
+    "url": "https://boot.dev"
+  },
+  "linksohhbbi": {
+    "_id": "linksohhbbi",
+    "order": 2,
+    "parent": "default",
+    "title": "",
+    "url": "https://net11.cc/home?utm_source=home_page",
+    "icon": {
+      "type": "url",
+      "value": "https://static.vecteezy.com/system/resources/previews/007/329/228/non_2x/gan-letter-logo-design-on-black-background-gan-creative-initials-letter-logo-concept-gan-letter-design-vector.jpg"
+    }
+  },
+  "linkslijrhn": {
+    "_id": "linkslijrhn",
+    "order": 3,
+    "parent": "linksqdjemj",
+    "title": "",
+    "url": "https://chatgpt.com"
+  },
   "linksmhpnee": {
     "_id": "linksmhpnee",
     "order": 0,
@@ -201,7 +241,7 @@
   },
   "linksndceqk": {
     "_id": "linksndceqk",
-    "order": 11,
+    "order": 12,
     "parent": "default",
     "title": "",
     "url": "https://v6.www-y2mate.com/"
@@ -229,14 +269,14 @@
   },
   "linksrrcanq": {
     "_id": "linksrrcanq",
-    "order": 8,
+    "order": 9,
     "parent": "default",
     "title": "",
     "url": "https://app.flocus.com/"
   },
   "linksqdjemj": {
     "_id": "linksqdjemj",
-    "order": 10,
+    "order": 11,
     "parent": "default",
     "title": "",
     "folder": true
@@ -285,7 +325,7 @@
   },
   "linksfdkgbn": {
     "_id": "linksfdkgbn",
-    "order": 7,
+    "order": 8,
     "parent": "default",
     "title": "",
     "url": "https://jperm.net"
@@ -314,30 +354,5 @@
       "type": "url",
       "value": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb4j_7ziXNPAMowvr7KuGyaUdXEJx0JRDlqA&s"
     }
-  },
-  "linkskoecjk": {
-    "_id": "linkskoecjk",
-    "order": 9,
-    "parent": "default",
-    "title": "",
-    "folder": true
-  },
-  "linksohhbbi": {
-    "_id": "linksohhbbi",
-    "order": 2,
-    "parent": "default",
-    "title": "",
-    "url": "https://net11.cc/home?utm_source=home_page",
-    "icon": {
-      "type": "url",
-      "value": "https://static.vecteezy.com/system/resources/previews/007/329/228/non_2x/gan-letter-logo-design-on-black-background-gan-creative-initials-letter-logo-concept-gan-letter-design-vector.jpg"
-    }
-  },
-  "linkslijrhn": {
-    "_id": "linkslijrhn",
-    "order": 3,
-    "parent": "linksqdjemj",
-    "title": "",
-    "url": "https://chatgpt.com"
   }
 }
